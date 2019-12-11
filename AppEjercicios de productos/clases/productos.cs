@@ -8,9 +8,9 @@ namespace AppEjercicios_de_productos.clases
 {
     class productos
     {
-        private string Producto{ get; set; }
-        private string Precio { get; set; }
-    private string Peso { get; set; }
-
+     public  string Producto{ get; set; }
+        public string Precio { get; set; }
+    public  string Peso { get; set; }
+        public string cantidad { get; set; }
     }
 }

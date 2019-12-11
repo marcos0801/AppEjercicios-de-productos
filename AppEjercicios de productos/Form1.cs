@@ -26,6 +26,8 @@ namespace AppEjercicios_de_productos
             productos.Precio = this.txtPrecio.Text;
             productos.Peso = this.comboBoxPeso.Text;
             productos.cantidad = this.comboBoxCantidad.Text;
+            productos.fechadecompra   = this.txtfechacompra.Text;
+            productos.codigo  = this.txtcodigo.Text;
 
             Lista.Add(productos);
 
@@ -35,9 +37,16 @@ namespace AppEjercicios_de_productos
             item.SubItems.Add(productos.Precio);
             item.SubItems.Add(productos.Peso);
             item.SubItems.Add(productos.cantidad);
+            item.SubItems.Add(productos.fechadecompra);
+            item.SubItems.Add(productos.codigo);
 
 
 
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }

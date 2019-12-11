@@ -28,181 +28,195 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtProducto = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.comboBoxCantidad = new System.Windows.Forms.ComboBox();
-            this.comboBoxPeso = new System.Windows.Forms.ComboBox();
-            this.txtPrecio = new System.Windows.Forms.TextBox();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.listViewProduct = new System.Windows.Forms.ListView();
-            this.columnPRODUCTO = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnPRECIO = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnPESO = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnCANTIDAD = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.btnlista = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
-            // label1
+            // label8
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(290, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "EJERCICIO DE PRODUCTOS";
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(22, 58);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(87, 17);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "PRODUCTO";
             // 
-            // label2
+            // label9
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(93, 87);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "PRODUCTO";
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(249, 58);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(59, 17);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "PRECIO";
             // 
-            // label3
+            // label10
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(320, 87);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 17);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "PRECIO";
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(436, 59);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(46, 17);
+            this.label10.TabIndex = 2;
+            this.label10.Text = "PESO";
             // 
-            // label4
+            // label11
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(539, 87);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 17);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "PESO ";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(595, 59);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(77, 17);
+            this.label11.TabIndex = 3;
+            this.label11.Text = "CANTIDAD";
             // 
-            // txtProducto
+            // label12
             // 
-            this.txtProducto.Location = new System.Drawing.Point(38, 117);
-            this.txtProducto.Name = "txtProducto";
-            this.txtProducto.Size = new System.Drawing.Size(192, 22);
-            this.txtProducto.TabIndex = 4;
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(765, 59);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(139, 17);
+            this.label12.TabIndex = 4;
+            this.label12.Text = "FECHA DE COMPRA";
             // 
-            // label5
+            // label13
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(703, 87);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 17);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "CANTIDAD";
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(1035, 59);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(63, 17);
+            this.label13.TabIndex = 5;
+            this.label13.Text = "CODIGO";
             // 
-            // comboBoxCantidad
+            // textBox1
             // 
-            this.comboBoxCantidad.FormattingEnabled = true;
-            this.comboBoxCantidad.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12"});
-            this.comboBoxCantidad.Location = new System.Drawing.Point(677, 116);
-            this.comboBoxCantidad.Name = "comboBoxCantidad";
-            this.comboBoxCantidad.Size = new System.Drawing.Size(135, 24);
-            this.comboBoxCantidad.TabIndex = 7;
+            this.textBox1.Location = new System.Drawing.Point(12, 90);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(131, 22);
+            this.textBox1.TabIndex = 6;
             // 
-            // comboBoxPeso
+            // textBox2
             // 
-            this.comboBoxPeso.FormattingEnabled = true;
-            this.comboBoxPeso.Items.AddRange(new object[] {
-            "1/2KG",
-            "1KG",
-            "2KG",
-            "3KG",
-            "4KG",
-            "5KG",
-            "6KG",
-            "7KG",
-            "8KG",
-            "9KG"});
-            this.comboBoxPeso.Location = new System.Drawing.Point(462, 117);
-            this.comboBoxPeso.Name = "comboBoxPeso";
-            this.comboBoxPeso.Size = new System.Drawing.Size(176, 24);
-            this.comboBoxPeso.TabIndex = 8;
+            this.textBox2.Location = new System.Drawing.Point(213, 90);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(114, 22);
+            this.textBox2.TabIndex = 7;
             // 
-            // txtPrecio
+            // textBox3
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(255, 116);
-            this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(185, 22);
-            this.txtPrecio.TabIndex = 9;
+            this.textBox3.Location = new System.Drawing.Point(753, 90);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(167, 22);
+            this.textBox3.TabIndex = 8;
             // 
-            // btnAgregar
+            // textBox4
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(63, 145);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(151, 50);
-            this.btnAgregar.TabIndex = 10;
-            this.btnAgregar.Text = "AGREGAR LISTA";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            this.textBox4.Location = new System.Drawing.Point(980, 90);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(148, 22);
+            this.textBox4.TabIndex = 9;
             // 
-            // listViewProduct
+            // comboBox1
             // 
-            this.listViewProduct.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnPRODUCTO,
-            this.columnPRECIO,
-            this.columnPESO,
-            this.columnCANTIDAD});
-            this.listViewProduct.HideSelection = false;
-            this.listViewProduct.Location = new System.Drawing.Point(7, 211);
-            this.listViewProduct.Name = "listViewProduct";
-            this.listViewProduct.Size = new System.Drawing.Size(876, 188);
-            this.listViewProduct.TabIndex = 11;
-            this.listViewProduct.UseCompatibleStateImageBehavior = false;
-            this.listViewProduct.View = System.Windows.Forms.View.Details;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(389, 90);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(130, 24);
+            this.comboBox1.TabIndex = 10;
             // 
-            // columnPRODUCTO
+            // comboBox2
             // 
-            this.columnPRODUCTO.Text = "PRODUCTO";
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(556, 88);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(161, 24);
+            this.comboBox2.TabIndex = 11;
             // 
-            // columnPRECIO
+            // btnlista
             // 
-            this.columnPRECIO.Text = "PRECIO";
+            this.btnlista.Location = new System.Drawing.Point(34, 143);
+            this.btnlista.Name = "btnlista";
+            this.btnlista.Size = new System.Drawing.Size(197, 50);
+            this.btnlista.TabIndex = 12;
+            this.btnlista.Text = "AGREGAR LISTA";
+            this.btnlista.UseVisualStyleBackColor = true;
             // 
-            // columnPESO
+            // listView1
             // 
-            this.columnPESO.Text = "PESO";
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4,
+            this.columnHeader5,
+            this.columnHeader6});
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(48, 232);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(1063, 270);
+            this.listView1.TabIndex = 13;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
             // 
-            // columnCANTIDAD
+            // columnHeader1
             // 
-            this.columnCANTIDAD.Text = "CANTIDAD";
+            this.columnHeader1.Text = "PRODUCTO";
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "PRECIO";
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "PESO";
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "CANTIDAD";
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "FECHADECOMPRA";
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "CODIGO";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(891, 450);
-            this.Controls.Add(this.listViewProduct);
-            this.Controls.Add(this.btnAgregar);
-            this.Controls.Add(this.txtPrecio);
-            this.Controls.Add(this.comboBoxPeso);
-            this.Controls.Add(this.comboBoxCantidad);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtProducto);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(1140, 511);
+            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.btnlista);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -225,6 +239,33 @@
         private System.Windows.Forms.ColumnHeader columnPRECIO;
         private System.Windows.Forms.ColumnHeader columnPESO;
         private System.Windows.Forms.ColumnHeader columnCANTIDAD;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtfechacompra;
+        private System.Windows.Forms.TextBox txtcodigo;
+        private System.Windows.Forms.ColumnHeader columnFECHADECOMPRA;
+        private System.Windows.Forms.ColumnHeader columnCODIGO;
+        private System.Windows.Forms.Button btnlimpiar;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button btnlista;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
     }
 }
 

@@ -12,5 +12,7 @@ namespace AppEjercicios_de_productos.clases
         public string Precio { get; set; }
     public  string Peso { get; set; }
         public string cantidad { get; set; }
+        public string fechadecompra{ get; set; }
+        public string codigo{ get; set; }
     }
 }
